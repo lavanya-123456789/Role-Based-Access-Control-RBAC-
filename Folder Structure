@@ -1,0 +1,17 @@
+/backend
+├── controllers/
+│   ├── authController.js
+│   └── blogController.js
+├── middlewares/
+│   ├── authMiddleware.js
+│   └── roleMiddleware.js
+├── models/
+│   ├── User.js
+│   └── Blog.js
+├── routes/
+│   ├── authRoutes.js
+│   └── blogRoutes.js
+├── utils/
+│   └── generateToken.js
+├── app.js
+└── .env
